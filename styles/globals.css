@@ -1,0 +1,62 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  padding: 2%;
+  background-color: rgb(0, 206, 209);
+  color: white;
+  text-align: center;
+}
+
+.item_div {
+  background-color: rgb(224, 255, 255);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item{
+  align-content: center;
+  text-align: center;
+}
+
+#trigger {
+  display: none;
+}
+.checker {
+  background-image: url(/public/img/heart1.png);
+  background-position: left center;
+  background-size: auto 100%;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+#trigger:checked + .checker {
+  background-position: right center;
+}
+
+a:link{
+  text-decoration: none!important;
+}
+
+
+
