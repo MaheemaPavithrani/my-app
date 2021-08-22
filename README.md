@@ -10,4 +10,5 @@ Development Installation
 Important
 
 To run this application minimum node version 10.13 is required
+
 If any build error occures try install the required npm libraries
